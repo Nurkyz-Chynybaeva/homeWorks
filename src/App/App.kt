@@ -2,17 +2,26 @@
 
 fun main(){
 
+    val num = readLine()!!.toCharArray()
 
 
-    val x1 = 55
-    val x2 = 55
-    val x = x1 == x2
 
-    val a2= when{
-        x -> "true"
-        else -> "false"
-    }
-    println(a2)
+
+
+
+
+//    val x1 = 55
+//    val x2 = 55
+//    val x = x1 == x2
+//
+//    val a2= when{
+//        x -> "true"
+//        else -> "false"
+//    }
+//    println(a2)
+
+
+
 
 //    val a = readLine()!!.toInt()
 //    val x1 = 55
@@ -25,10 +34,5 @@ fun main(){
 //        else -> "false"
 //    }
 //    println(a2)                             Kotlin error: Operator '==' cannot be applied to 'Int' and 'Boolean'
-
-
-
-
-
 
 }
